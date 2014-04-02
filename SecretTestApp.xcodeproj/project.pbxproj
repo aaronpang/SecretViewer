@@ -19,6 +19,22 @@
 		E31DF7A218E61B4A007F3A8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E31DF78A18E61B4A007F3A8F /* UIKit.framework */; };
 		E31DF7AA18E61B4A007F3A8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E31DF7A818E61B4A007F3A8F /* InfoPlist.strings */; };
 		E31DF7AC18E61B4A007F3A8F /* SecretTestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E31DF7AB18E61B4A007F3A8F /* SecretTestAppTests.m */; };
+		E31DF7B718E61B60007F3A8F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E31DF7B618E61B60007F3A8F /* RootViewController.m */; };
+		E31DF7B918E62E64007F3A8F /* bluejay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E31DF7B818E62E64007F3A8F /* bluejay.jpg */; };
+		E31DF7BC18E64CED007F3A8F /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = E31DF7BB18E64CED007F3A8F /* UIImage+ImageEffects.m */; };
+		E31DF7C018E678DE007F3A8F /* secret.png in Resources */ = {isa = PBXBuildFile; fileRef = E31DF7BF18E678DE007F3A8F /* secret.png */; };
+		E31DF7C318E67CD3007F3A8F /* ToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = E31DF7C218E67CD3007F3A8F /* ToolBarView.m */; };
+		E31DF7C918E746A6007F3A8F /* UIFont+SecretFont.m in Sources */ = {isa = PBXBuildFile; fileRef = E31DF7C818E746A6007F3A8F /* UIFont+SecretFont.m */; };
+		E31DF7CC18E7EA47007F3A8F /* CommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E31DF7CB18E7EA47007F3A8F /* CommentCell.m */; };
+		E3920CC218EA1A7300C0DF6C /* like_greyIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = E3920CBF18EA1A7300C0DF6C /* like_greyIcon.png */; };
+		E3920CC518EA27AE00C0DF6C /* likeButton_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = E3920CC318EA27AE00C0DF6C /* likeButton_selected.png */; };
+		E3920CC618EA27AE00C0DF6C /* likeButton_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = E3920CC418EA27AE00C0DF6C /* likeButton_unselected.png */; };
+		E3920CC818EA283700C0DF6C /* likeButton_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = E3920CC718EA283700C0DF6C /* likeButton_highlighted.png */; };
+		E3920CED18EB3FF400C0DF6C /* UIView+GradientMask.m in Sources */ = {isa = PBXBuildFile; fileRef = E3920CEC18EB3FF400C0DF6C /* UIView+GradientMask.m */; };
+		E3920CF118EB471A00C0DF6C /* moreButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E3920CF018EB471A00C0DF6C /* moreButton.png */; };
+		E3920CF518EB4CC400C0DF6C /* likeButtonToolbar_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = E3920CF218EB4CC400C0DF6C /* likeButtonToolbar_unselected.png */; };
+		E3920CF618EB4CC400C0DF6C /* commentButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E3920CF318EB4CC400C0DF6C /* commentButton.png */; };
+		E3920CF718EB4CC400C0DF6C /* likeButtonToolbar_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = E3920CF418EB4CC400C0DF6C /* likeButtonToolbar_selected.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +64,28 @@
 		E31DF7A718E61B4A007F3A8F /* SecretTestAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecretTestAppTests-Info.plist"; sourceTree = "<group>"; };
 		E31DF7A918E61B4A007F3A8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E31DF7AB18E61B4A007F3A8F /* SecretTestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecretTestAppTests.m; sourceTree = "<group>"; };
+		E31DF7B518E61B60007F3A8F /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		E31DF7B618E61B60007F3A8F /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		E31DF7B818E62E64007F3A8F /* bluejay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bluejay.jpg; sourceTree = "<group>"; };
+		E31DF7BA18E64CED007F3A8F /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		E31DF7BB18E64CED007F3A8F /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		E31DF7BF18E678DE007F3A8F /* secret.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = secret.png; sourceTree = "<group>"; };
+		E31DF7C118E67CD3007F3A8F /* ToolBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolBarView.h; sourceTree = "<group>"; };
+		E31DF7C218E67CD3007F3A8F /* ToolBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolBarView.m; sourceTree = "<group>"; };
+		E31DF7C718E746A6007F3A8F /* UIFont+SecretFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+SecretFont.h"; sourceTree = "<group>"; };
+		E31DF7C818E746A6007F3A8F /* UIFont+SecretFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+SecretFont.m"; sourceTree = "<group>"; };
+		E31DF7CA18E7EA47007F3A8F /* CommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentCell.h; sourceTree = "<group>"; };
+		E31DF7CB18E7EA47007F3A8F /* CommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentCell.m; sourceTree = "<group>"; };
+		E3920CBF18EA1A7300C0DF6C /* like_greyIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like_greyIcon.png; sourceTree = "<group>"; };
+		E3920CC318EA27AE00C0DF6C /* likeButton_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = likeButton_selected.png; sourceTree = "<group>"; };
+		E3920CC418EA27AE00C0DF6C /* likeButton_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = likeButton_unselected.png; sourceTree = "<group>"; };
+		E3920CC718EA283700C0DF6C /* likeButton_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = likeButton_highlighted.png; sourceTree = "<group>"; };
+		E3920CEB18EB3FF400C0DF6C /* UIView+GradientMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GradientMask.h"; sourceTree = "<group>"; };
+		E3920CEC18EB3FF400C0DF6C /* UIView+GradientMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GradientMask.m"; sourceTree = "<group>"; };
+		E3920CF018EB471A00C0DF6C /* moreButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moreButton.png; sourceTree = "<group>"; };
+		E3920CF218EB4CC400C0DF6C /* likeButtonToolbar_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = likeButtonToolbar_unselected.png; sourceTree = "<group>"; };
+		E3920CF318EB4CC400C0DF6C /* commentButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = commentButton.png; sourceTree = "<group>"; };
+		E3920CF418EB4CC400C0DF6C /* likeButtonToolbar_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = likeButtonToolbar_selected.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +147,14 @@
 			children = (
 				E31DF79518E61B4A007F3A8F /* AppDelegate.h */,
 				E31DF79618E61B4A007F3A8F /* AppDelegate.m */,
+				E3920CCC18EA4A4200C0DF6C /* Resources */,
+				E3920D1718EB9C0500C0DF6C /* Categories */,
+				E31DF7B518E61B60007F3A8F /* RootViewController.h */,
+				E31DF7B618E61B60007F3A8F /* RootViewController.m */,
+				E31DF7CA18E7EA47007F3A8F /* CommentCell.h */,
+				E31DF7CB18E7EA47007F3A8F /* CommentCell.m */,
+				E31DF7C118E67CD3007F3A8F /* ToolBarView.h */,
+				E31DF7C218E67CD3007F3A8F /* ToolBarView.m */,
 				E31DF79818E61B4A007F3A8F /* Images.xcassets */,
 				E31DF78D18E61B4A007F3A8F /* Supporting Files */,
 			);
@@ -142,6 +188,36 @@
 				E31DF7A818E61B4A007F3A8F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3920CCC18EA4A4200C0DF6C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E3920CF018EB471A00C0DF6C /* moreButton.png */,
+				E3920CC318EA27AE00C0DF6C /* likeButton_selected.png */,
+				E3920CC418EA27AE00C0DF6C /* likeButton_unselected.png */,
+				E3920CC718EA283700C0DF6C /* likeButton_highlighted.png */,
+				E3920CBF18EA1A7300C0DF6C /* like_greyIcon.png */,
+				E31DF7B818E62E64007F3A8F /* bluejay.jpg */,
+				E31DF7BF18E678DE007F3A8F /* secret.png */,
+				E3920CF218EB4CC400C0DF6C /* likeButtonToolbar_unselected.png */,
+				E3920CF318EB4CC400C0DF6C /* commentButton.png */,
+				E3920CF418EB4CC400C0DF6C /* likeButtonToolbar_selected.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E3920D1718EB9C0500C0DF6C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E31DF7C718E746A6007F3A8F /* UIFont+SecretFont.h */,
+				E31DF7C818E746A6007F3A8F /* UIFont+SecretFont.m */,
+				E31DF7BA18E64CED007F3A8F /* UIImage+ImageEffects.h */,
+				E31DF7BB18E64CED007F3A8F /* UIImage+ImageEffects.m */,
+				E3920CEB18EB3FF400C0DF6C /* UIView+GradientMask.h */,
+				E3920CEC18EB3FF400C0DF6C /* UIView+GradientMask.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +295,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3920CF518EB4CC400C0DF6C /* likeButtonToolbar_unselected.png in Resources */,
+				E31DF7B918E62E64007F3A8F /* bluejay.jpg in Resources */,
 				E31DF79118E61B4A007F3A8F /* InfoPlist.strings in Resources */,
+				E3920CF118EB471A00C0DF6C /* moreButton.png in Resources */,
+				E3920CC618EA27AE00C0DF6C /* likeButton_unselected.png in Resources */,
 				E31DF79918E61B4A007F3A8F /* Images.xcassets in Resources */,
+				E3920CC518EA27AE00C0DF6C /* likeButton_selected.png in Resources */,
+				E3920CC218EA1A7300C0DF6C /* like_greyIcon.png in Resources */,
+				E3920CC818EA283700C0DF6C /* likeButton_highlighted.png in Resources */,
+				E3920CF718EB4CC400C0DF6C /* likeButtonToolbar_selected.png in Resources */,
+				E31DF7C018E678DE007F3A8F /* secret.png in Resources */,
+				E3920CF618EB4CC400C0DF6C /* commentButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +325,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E31DF7BC18E64CED007F3A8F /* UIImage+ImageEffects.m in Sources */,
+				E31DF7C318E67CD3007F3A8F /* ToolBarView.m in Sources */,
+				E31DF7CC18E7EA47007F3A8F /* CommentCell.m in Sources */,
 				E31DF79718E61B4A007F3A8F /* AppDelegate.m in Sources */,
 				E31DF79318E61B4A007F3A8F /* main.m in Sources */,
+				E31DF7B718E61B60007F3A8F /* RootViewController.m in Sources */,
+				E3920CED18EB3FF400C0DF6C /* UIView+GradientMask.m in Sources */,
+				E31DF7C918E746A6007F3A8F /* UIFont+SecretFont.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +533,7 @@
 				E31DF7B118E61B4A007F3A8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E31DF7B218E61B4A007F3A8F /* Build configuration list for PBXNativeTarget "SecretTestAppTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +542,7 @@
 				E31DF7B418E61B4A007F3A8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
