@@ -72,6 +72,7 @@ const CGFloat kCommentCellHeight = 50.0f;
         [_textLabel setFont:[UIFont secretFontWithSize:22.f]];
         [_textLabel setTextAlignment:NSTextAlignmentCenter];
         [_textLabel setTextColor:[UIColor whiteColor]];
+        _textLabel.backgroundColor = [UIColor clearColor];
         _textLabel.layer.shadowColor = [UIColor blackColor].CGColor;
         _textLabel.layer.shadowRadius = 10.0f;
         _textLabel.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
@@ -95,6 +96,7 @@ const CGFloat kCommentCellHeight = 50.0f;
         _blurImageView.image = [img applyBlurWithRadius:12 tintColor:[UIColor colorWithWhite:0.8 alpha:0.4] saturationDeltaFactor:1.8 maskImage:nil];
         _blurImageView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
         _blurImageView.alpha = 0;
+        _blurImageView.backgroundColor = [UIColor clearColor];
         [_backgroundScrollView addSubview:_blurImageView];
  
         _commentsViewContainer = [[UIView alloc] initWithFrame:CGRectMake(0, CGRectGetHeight(_backgroundScrollView.frame), CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame) - kBarHeight )];
@@ -166,11 +168,16 @@ const CGFloat kCommentCellHeight = 50.0f;
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     NSString *text = [comments objectAtIndex:[indexPath row]];
-    CGRect rect = [text boundingRectWithSize:(CGSize){225, MAXFLOAT}
-                                               options:NSStringDrawingUsesLineFragmentOrigin
-                                                attributes:@{NSFontAttributeName:[UIFont secretFontLightWithSize:16.f]}
-                                               context:nil];
-    CGSize requiredSize = rect.size;
+    CGSize requiredSize;
+    if ([text respondsToSelector:@selector(boundingRectWithSize:options:attributes:context:)]) {
+        CGRect rect = [text boundingRectWithSize:(CGSize){225, MAXFLOAT}
+                                                   options:NSStringDrawingUsesLineFragmentOrigin
+                                                    attributes:@{NSFontAttributeName:[UIFont secretFontLightWithSize:16.f]}
+                                                   context:nil];
+        requiredSize = rect.size;
+    } else {
+        requiredSize = [text sizeWithFont:[UIFont secretFontLightWithSize:16.f] constrainedToSize:(CGSize){225, MAXFLOAT} lineBreakMode:NSLineBreakByWordWrapping];
+    }
     return kCommentCellHeight + requiredSize.height;
 }
 

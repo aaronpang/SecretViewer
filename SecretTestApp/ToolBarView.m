@@ -34,6 +34,7 @@
         _cityLabel.textColor = [UIColor whiteColor];
         _cityLabel.textAlignment = NSTextAlignmentLeft;
         _cityLabel.frame = (CGRect) {.origin = {15,0}};
+        _cityLabel.backgroundColor = [UIColor clearColor];
         [_cityLabel sizeToFit];
         [self addSubview:_cityLabel];
         
@@ -51,6 +52,7 @@
         _commentCountLabel.textColor = [UIColor whiteColor];
         _commentCountLabel.textAlignment = NSTextAlignmentLeft;
         _commentCountLabel.frame = (CGRect) {.origin = {CGRectGetMaxX(_commentButton.frame) + 6, CGRectGetMinY(_cityLabel.frame) + 1}};
+        _commentCountLabel.backgroundColor = [UIColor clearColor];
         [self addSubview:_commentCountLabel];
         
         _likeButton = [[UIButton alloc] initWithFrame:(CGRect){.origin = {CGRectGetMaxX(_commentCountLabel.frame) + 25, CGRectGetMinY(_cityLabel.frame) + 3}, .size = {15,15}}];
@@ -66,6 +68,7 @@
         _likeCountLabel.textAlignment = NSTextAlignmentLeft;
         _likeCountLabel.frame = (CGRect) {.origin = {CGRectGetMaxX(_likeButton.frame) + 6, CGRectGetMinY(_cityLabel.frame) + 1}};
         _likeCountLabel.text = [NSString stringWithFormat:@"%d", _likeCounter];
+        _likeCountLabel.backgroundColor = [UIColor clearColor];
         [_likeCountLabel sizeToFit];
         [self addSubview:_likeCountLabel];
         
